@@ -1,0 +1,17 @@
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\bin\Debug\MobileMusicApp.exe.config
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\bin\Debug\MobileMusicApp.exe
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\bin\Debug\MobileMusicApp.pdb
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\bin\Debug\Interop.WMPLib.dll
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\bin\Debug\AxInterop.WMPLib.dll
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.csproj.AssemblyReference.cache
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\Interop.WMPLib.dll
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\AxInterop.WMPLib.dll
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.csproj.ResolveComReference.cache
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Form1.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Properties.Resources.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.csproj.GenerateResource.cache
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.csproj.CoreCompileInputs.cache
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.exe
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.pdb
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.SongControl.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.DownloadControl.resources
