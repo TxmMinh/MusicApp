@@ -227,5 +227,31 @@ namespace MobileMusicApp
                 MessageBox.Show("Download Error: " + ex.Message);
             }
         }
+
+        private static Boolean showDetail = false; 
+        private void btnMoreInfo_Click(object sender, EventArgs e)
+        {
+/*            if (showDetail)
+            {
+                axWindowsMediaPlayer1.Visible = true;
+                lblSongName.Visible = false;
+                lblSinger.Visible = false;
+                showDetail = false;
+            }
+            else
+            {
+                axWindowsMediaPlayer1.Visible = false;
+                lblSongName.Visible = true;
+                lblSinger.Visible = true;
+                showDetail = true;
+            }*/
+
+            Form2 detailSong = new Form2();
+            detailSong.SongId = SongId;
+            detailSong.SongName = SongName;
+            detailSong.Singer = Singer;
+            detailSong.ShowDialog();
+        }
+
     }
 }

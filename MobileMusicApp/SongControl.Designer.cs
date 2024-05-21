@@ -31,17 +31,17 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SongControl));
             this.lblSongName = new System.Windows.Forms.Label();
             this.lblSinger = new System.Windows.Forms.Label();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.btnMoreInfo = new System.Windows.Forms.PictureBox();
             this.btnDownLoad = new System.Windows.Forms.PictureBox();
             this.btnPlaylist = new System.Windows.Forms.PictureBox();
             this.btnLove = new System.Windows.Forms.PictureBox();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.btnPlay = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMoreInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDownLoad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlaylist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLove)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,6 +65,16 @@
             this.lblSinger.TabIndex = 2;
             this.lblSinger.Text = "Singer";
             // 
+            // axWindowsMediaPlayer1
+            // 
+            this.axWindowsMediaPlayer1.Enabled = true;
+            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(3, 3);
+            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
+            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
+            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(235, 87);
+            this.axWindowsMediaPlayer1.TabIndex = 4;
+            this.axWindowsMediaPlayer1.Visible = false;
+            // 
             // btnMoreInfo
             // 
             this.btnMoreInfo.Image = global::MobileMusicApp.Properties.Resources._9057190_more_o_icon;
@@ -74,6 +84,7 @@
             this.btnMoreInfo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.btnMoreInfo.TabIndex = 8;
             this.btnMoreInfo.TabStop = false;
+            this.btnMoreInfo.Click += new System.EventHandler(this.btnMoreInfo_Click);
             // 
             // btnDownLoad
             // 
@@ -107,16 +118,6 @@
             this.btnLove.TabStop = false;
             this.btnLove.Click += new System.EventHandler(this.btnLove_Click);
             // 
-            // axWindowsMediaPlayer1
-            // 
-            this.axWindowsMediaPlayer1.Enabled = true;
-            this.axWindowsMediaPlayer1.Location = new System.Drawing.Point(118, 47);
-            this.axWindowsMediaPlayer1.Name = "axWindowsMediaPlayer1";
-            this.axWindowsMediaPlayer1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axWindowsMediaPlayer1.OcxState")));
-            this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(194, 49);
-            this.axWindowsMediaPlayer1.TabIndex = 4;
-            this.axWindowsMediaPlayer1.Visible = false;
-            // 
             // btnPlay
             // 
             this.btnPlay.Image = global::MobileMusicApp.Properties.Resources._352074_circle_play_icon;
@@ -143,11 +144,11 @@
             this.Controls.Add(this.lblSongName);
             this.Name = "SongControl";
             this.Size = new System.Drawing.Size(648, 103);
+            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMoreInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDownLoad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlaylist)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnLove)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlay)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

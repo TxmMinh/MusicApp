@@ -63,6 +63,16 @@ namespace MobileMusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1860497_send_social_media_icon {
+            get {
+                object obj = ResourceManager.GetObject("1860497_send_social media_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _2203510_favorite_black_icon {
             get {
                 object obj = ResourceManager.GetObject("2203510_favorite_black_icon", resourceCulture);
@@ -76,6 +86,16 @@ namespace MobileMusicApp.Properties {
         internal static System.Drawing.Bitmap _2205225_favorite_like_love_popular_icon {
             get {
                 object obj = ResourceManager.GetObject("2205225_favorite_like_love_popular_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _2674056_emotion_object_happy_web_essential_icon {
+            get {
+                object obj = ResourceManager.GetObject("2674056_emotion_object_happy_web_essential_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -106,6 +126,36 @@ namespace MobileMusicApp.Properties {
         internal static System.Drawing.Bitmap _352074_circle_play_icon {
             get {
                 object obj = ResourceManager.GetObject("352074_circle_play_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3561840_emoji_emoticon_expression_annoyed_icon {
+            get {
+                object obj = ResourceManager.GetObject("3561840_emoji_emoticon_expression_annoyed_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3561853_emoji_emoticon_happy_laugh_icon {
+            get {
+                object obj = ResourceManager.GetObject("3561853_emoji_emoticon_happy_laugh_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _3561857_bedroom_emoji_emoticon_rest_sleep_icon {
+            get {
+                object obj = ResourceManager.GetObject("3561857_bedroom_emoji_emoticon_rest_sleep_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +213,29 @@ namespace MobileMusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4830812_crying_emoji_sad_icon {
+            get {
+                object obj = ResourceManager.GetObject("4830812_crying_emoji_sad_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _619539_close_delete_dismiss_exit_cancel_icon {
             get {
                 object obj = ResourceManager.GetObject("619539_close_delete_dismiss_exit_cancel_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _7188658_care_social_emoticon_emoji_smiley_icon {
+            get {
+                object obj = ResourceManager.GetObject("7188658_care_social_emoticon_emoji_smiley_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

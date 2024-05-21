@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChatControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChatControl.Designer.cs">
+      <DependentUpon>ChatControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="DownloadControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -59,6 +65,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Song.cs" />
@@ -68,11 +80,17 @@
     <Compile Include="SongControl.Designer.cs">
       <DependentUpon>SongControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ChatControl.resx">
+      <DependentUpon>ChatControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="DownloadControl.resx">
       <DependentUpon>DownloadControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -160,6 +178,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2203510_favorite_black_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1860497_send_social media_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2674056_emotion_object_happy_web_essential_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3561853_emoji_emoticon_happy_laugh_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7188658_care_social_emoticon_emoji_smiley_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4830812_crying_emoji_sad_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3561840_emoji_emoticon_expression_annoyed_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3561857_bedroom_emoji_emoticon_rest_sleep_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -118,14 +118,23 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="3643770_favorite_white_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3643770_favorite_white_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="809530_pause_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\809530_pause_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4781840_+_add_circle_create_expand_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4781840_+_add_circle_create_expand_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="619539_close_delete_dismiss_exit_cancel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\619539_close_delete_dismiss_exit_cancel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="7188658_care_social_emoticon_emoji_smiley_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7188658_care_social_emoticon_emoji_smiley_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1860497_send_social media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1860497_send_social media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3561840_emoji_emoticon_expression_annoyed_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561840_emoji_emoticon_expression_annoyed_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4593186_list_music_player_playlist_video_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4593186_list_music_player_playlist_video_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -145,19 +154,31 @@
   <data name="3844432_magnifier_search_zoom_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3844432_magnifier_search_zoom_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="3561853_emoji_emoticon_happy_laugh_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561853_emoji_emoticon_happy_laugh_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="8893860_music_folder_directory_songs_media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8893860_music_folder_directory_songs_media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2674056_emotion_object_happy_web_essential_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2674056_emotion_object_happy_web_essential_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2203510_favorite_black_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2203510_favorite_black_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4737441_building_estate_home_house_property_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4737441_building_estate_home_house_property_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3643770_favorite_white_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3643770_favorite_white_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4830812_crying_emoji_sad_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4830812_crying_emoji_sad_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="619539_close_delete_dismiss_exit_cancel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\619539_close_delete_dismiss_exit_cancel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="352074_circle_play_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\352074_circle_play_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2203510_favorite_black_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2203510_favorite_black_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="3561857_bedroom_emoji_emoticon_rest_sleep_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561857_bedroom_emoji_emoticon_rest_sleep_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
