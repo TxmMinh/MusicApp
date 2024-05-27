@@ -22,6 +22,7 @@ namespace MobileMusicApp
 
         public string SongId { get; set; }
         public string SongPath { get; set; }
+        public string ImagePath { get; set; }
         public string SongName
         {
             get { return lblSongName.Text; }
@@ -169,6 +170,18 @@ namespace MobileMusicApp
 
         private void InsertRecents()
         {
+            string query_delete = "DELETE FROM recents WHERE song_id = @songId";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query_delete, connection))
+                {
+                    command.Parameters.AddWithValue("@songId", SongId);
+                    command.ExecuteNonQuery();
+                }
+                connection.Close();
+            }
+
             string query = "INSERT INTO recents (song_id) VALUES (@songId)";
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -231,25 +244,13 @@ namespace MobileMusicApp
         private static Boolean showDetail = false; 
         private void btnMoreInfo_Click(object sender, EventArgs e)
         {
-/*            if (showDetail)
-            {
-                axWindowsMediaPlayer1.Visible = true;
-                lblSongName.Visible = false;
-                lblSinger.Visible = false;
-                showDetail = false;
-            }
-            else
-            {
-                axWindowsMediaPlayer1.Visible = false;
-                lblSongName.Visible = true;
-                lblSinger.Visible = true;
-                showDetail = true;
-            }*/
-
+            Stop();
             Form2 detailSong = new Form2();
             detailSong.SongId = SongId;
             detailSong.SongName = SongName;
             detailSong.Singer = Singer;
+            detailSong.SongPath = SongPath;
+            detailSong.ImagePath = ImagePath;
             detailSong.ShowDialog();
         }
 

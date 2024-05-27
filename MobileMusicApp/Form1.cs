@@ -58,6 +58,7 @@ namespace MobileMusicApp
                                 SongName = reader["song_name"].ToString(),
                                 Singer = reader["singer"].ToString(),
                                 IsLoveSong = (int)reader["is_love"],
+                                ImagePath = reader["image_path"].ToString(),
                                 Dock = DockStyle.Top
                             };
                             songControl.UpdateStatusLoveSong(songControl.IsLoveSong);
@@ -174,7 +175,7 @@ namespace MobileMusicApp
             panelTitle.Visible = true;
             lblTitle.Text = "Your DownLoad Song";
             panelTitle.BringToFront();
-            string query = "SELECT * FROM songs INNER JOIN download on songs.song_id = download.song_id";
+            string query = "SELECT * FROM songs INNER JOIN download on songs.song_id = download.song_id order by download_date desc";
             LoadDownLoad(query);
         }
 

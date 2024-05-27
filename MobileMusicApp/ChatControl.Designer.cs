@@ -28,23 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtMess = new System.Windows.Forms.RichTextBox();
             this.lblDateCreated = new System.Windows.Forms.Label();
             this.lblName = new System.Windows.Forms.Label();
+            this.txtMess = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
-            // 
-            // txtMess
-            // 
-            this.txtMess.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.txtMess.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtMess.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtMess.Location = new System.Drawing.Point(21, 33);
-            this.txtMess.Name = "txtMess";
-            this.txtMess.ReadOnly = true;
-            this.txtMess.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.None;
-            this.txtMess.Size = new System.Drawing.Size(323, 30);
-            this.txtMess.TabIndex = 4;
-            this.txtMess.Text = "";
             // 
             // lblDateCreated
             // 
@@ -66,13 +53,23 @@
             this.lblName.Text = "Name";
             this.lblName.Click += new System.EventHandler(this.label1_Click);
             // 
+            // txtMess
+            // 
+            this.txtMess.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtMess.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMess.Location = new System.Drawing.Point(21, 33);
+            this.txtMess.Name = "txtMess";
+            this.txtMess.Size = new System.Drawing.Size(314, 31);
+            this.txtMess.TabIndex = 8;
+            this.txtMess.Text = "";
+            // 
             // ChatControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.txtMess);
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.lblDateCreated);
-            this.Controls.Add(this.txtMess);
             this.Name = "ChatControl";
             this.Size = new System.Drawing.Size(370, 74);
             this.Load += new System.EventHandler(this.ChatControl_Load);
@@ -82,8 +79,8 @@
         }
 
         #endregion
-        private System.Windows.Forms.RichTextBox txtMess;
         private System.Windows.Forms.Label lblDateCreated;
         private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.RichTextBox txtMess;
     }
 }

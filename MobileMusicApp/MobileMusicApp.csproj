@@ -80,6 +80,7 @@
     <Compile Include="SongControl.Designer.cs">
       <DependentUpon>SongControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Uilist.cs" />
     <EmbeddedResource Include="ChatControl.resx">
       <DependentUpon>ChatControl.cs</DependentUpon>
     </EmbeddedResource>

@@ -9,6 +9,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace MobileMusicApp
 {
@@ -42,9 +43,18 @@ namespace MobileMusicApp
             set { lblName.Text = value; }
         }
 
+        void AddHeighTText()
+        {
+            ChatControl chatControl = new ChatControl();
+            chatControl.BringToFront();
+            txtMess.Height = Uilist.GetRTTextHeight(txtMess) + 10;
+            chatControl.Height = txtMess.Top + txtMess.Height;
+            this.Height = chatControl.Bottom + 10;
+        }
+
         private void ChatControl_Load(object sender, EventArgs e)
         {
-
+            AddHeighTText();
         }
 
         private void label1_Click(object sender, EventArgs e)

@@ -40,15 +40,15 @@
             this.btnSendMs = new System.Windows.Forms.PictureBox();
             this.txtMessage = new System.Windows.Forms.RichTextBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnExit = new System.Windows.Forms.PictureBox();
-            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.lblSongPath = new System.Windows.Forms.Label();
+            this.pictureBoxImage = new System.Windows.Forms.PictureBox();
+            this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSendMs)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -66,7 +66,7 @@
             // 
             this.lblSinger.AutoSize = true;
             this.lblSinger.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSinger.Location = new System.Drawing.Point(147, 276);
+            this.lblSinger.Location = new System.Drawing.Point(174, 274);
             this.lblSinger.Name = "lblSinger";
             this.lblSinger.Size = new System.Drawing.Size(57, 20);
             this.lblSinger.TabIndex = 25;
@@ -76,7 +76,7 @@
             // 
             this.lblSongName.AutoSize = true;
             this.lblSongName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSongName.Location = new System.Drawing.Point(146, 227);
+            this.lblSongName.Location = new System.Drawing.Point(173, 225);
             this.lblSongName.Name = "lblSongName";
             this.lblSongName.Size = new System.Drawing.Size(125, 25);
             this.lblSongName.TabIndex = 24;
@@ -85,10 +85,11 @@
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.SystemColors.ControlLight;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(15, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(450, 259);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(449, 240);
             this.flowLayoutPanel1.TabIndex = 26;
             // 
             // panel7
@@ -100,7 +101,7 @@
             this.panel7.Controls.Add(this.btnSendMs);
             this.panel7.Controls.Add(this.txtMessage);
             this.panel7.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel7.Location = new System.Drawing.Point(0, 268);
+            this.panel7.Location = new System.Drawing.Point(0, 249);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(482, 111);
             this.panel7.TabIndex = 4;
@@ -159,18 +160,10 @@
             // 
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.flowLayoutPanel1);
-            this.panel1.Location = new System.Drawing.Point(2, 311);
+            this.panel1.Location = new System.Drawing.Point(2, 330);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(482, 379);
+            this.panel1.Size = new System.Drawing.Size(482, 360);
             this.panel1.TabIndex = 27;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(163, 41);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(141, 113);
-            this.pictureBox1.TabIndex = 23;
-            this.pictureBox1.TabStop = false;
             // 
             // btnExit
             // 
@@ -185,6 +178,25 @@
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
+            // lblSongPath
+            // 
+            this.lblSongPath.AutoSize = true;
+            this.lblSongPath.Location = new System.Drawing.Point(178, 189);
+            this.lblSongPath.Name = "lblSongPath";
+            this.lblSongPath.Size = new System.Drawing.Size(69, 16);
+            this.lblSongPath.TabIndex = 29;
+            this.lblSongPath.Text = "Song Path";
+            this.lblSongPath.Visible = false;
+            // 
+            // pictureBoxImage
+            // 
+            this.pictureBoxImage.Location = new System.Drawing.Point(17, 212);
+            this.pictureBoxImage.Name = "pictureBoxImage";
+            this.pictureBoxImage.Size = new System.Drawing.Size(138, 112);
+            this.pictureBoxImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxImage.TabIndex = 30;
+            this.pictureBoxImage.TabStop = false;
+            // 
             // axWindowsMediaPlayer1
             // 
             this.axWindowsMediaPlayer1.Enabled = true;
@@ -194,28 +206,18 @@
             this.axWindowsMediaPlayer1.Size = new System.Drawing.Size(331, 87);
             this.axWindowsMediaPlayer1.TabIndex = 28;
             // 
-            // lblSongPath
-            // 
-            this.lblSongPath.AutoSize = true;
-            this.lblSongPath.Location = new System.Drawing.Point(151, 191);
-            this.lblSongPath.Name = "lblSongPath";
-            this.lblSongPath.Size = new System.Drawing.Size(69, 16);
-            this.lblSongPath.TabIndex = 29;
-            this.lblSongPath.Text = "Song Path";
-            this.lblSongPath.Visible = false;
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSeaGreen;
             this.ClientSize = new System.Drawing.Size(488, 695);
+            this.Controls.Add(this.pictureBoxImage);
             this.Controls.Add(this.lblSongPath);
             this.Controls.Add(this.axWindowsMediaPlayer1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.lblSinger);
             this.Controls.Add(this.lblSongName);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.btnExit);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -227,8 +229,8 @@
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.btnSendMs)).EndInit();
             this.panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -239,7 +241,6 @@
 
         private System.Windows.Forms.PictureBox btnExit;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblSinger;
         private System.Windows.Forms.Label lblSongName;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
@@ -252,5 +253,6 @@
         private System.Windows.Forms.Label label1;
         private AxWMPLib.AxWindowsMediaPlayer axWindowsMediaPlayer1;
         private System.Windows.Forms.Label lblSongPath;
+        private System.Windows.Forms.PictureBox pictureBoxImage;
     }
 }
