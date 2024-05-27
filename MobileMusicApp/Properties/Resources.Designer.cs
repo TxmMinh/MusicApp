@@ -63,6 +63,16 @@ namespace MobileMusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10132186_playlist_line_icon {
+            get {
+                object obj = ResourceManager.GetObject("10132186_playlist_line_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _1860497_send_social_media_icon {
             get {
                 object obj = ResourceManager.GetObject("1860497_send_social media_icon", resourceCulture);
@@ -183,6 +193,16 @@ namespace MobileMusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _4115237_add_plus_icon {
+            get {
+                object obj = ResourceManager.GetObject("4115237_add_plus_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _4593186_list_music_player_playlist_video_icon {
             get {
                 object obj = ResourceManager.GetObject("4593186_list_music_player_playlist_video_icon", resourceCulture);
@@ -253,9 +273,49 @@ namespace MobileMusicApp.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8664938_trash_can_delete_remove_icon {
+            get {
+                object obj = ResourceManager.GetObject("8664938_trash_can_delete_remove_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8664938_trash_can_delete_remove_icon1 {
+            get {
+                object obj = ResourceManager.GetObject("8664938_trash_can_delete_remove_icon1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _8673564_ic_fluent_note_add_filled_icon {
+            get {
+                object obj = ResourceManager.GetObject("8673564_ic_fluent_note_add_filled_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _8893860_music_folder_directory_songs_media_icon {
             get {
                 object obj = ResourceManager.GetObject("8893860_music_folder_directory_songs_media_icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9042847_playlist_play_icon {
+            get {
+                object obj = ResourceManager.GetObject("9042847_playlist_play_icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

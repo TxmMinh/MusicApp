@@ -32,35 +32,35 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
+            this.pcBoxDownload = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pcBoxLove = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.pcBoxPlaylist = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.pcBoxSongs = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pcBoxHome = new System.Windows.Forms.PictureBox();
             this.panelSongs = new System.Windows.Forms.Panel();
             this.panelTitle = new System.Windows.Forms.Panel();
             this.lblTitle = new System.Windows.Forms.Label();
+            this.btnFindSong = new System.Windows.Forms.PictureBox();
             this.btnVN = new System.Windows.Forms.Button();
             this.btnEn = new System.Windows.Forms.Button();
             this.btnAll = new System.Windows.Forms.Button();
             this.txtBoxFindSong = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.PictureBox();
-            this.btnFindSong = new System.Windows.Forms.PictureBox();
-            this.pcBoxDownload = new System.Windows.Forms.PictureBox();
-            this.pcBoxLove = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pcBoxSongs = new System.Windows.Forms.PictureBox();
-            this.pcBoxHome = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panelSongs.SuspendLayout();
-            this.panelTitle.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btnFindSong)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBoxDownload)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBoxLove)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxPlaylist)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBoxSongs)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcBoxHome)).BeginInit();
+            this.panelSongs.SuspendLayout();
+            this.panelTitle.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.btnFindSong)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -80,7 +80,7 @@
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pcBoxLove);
             this.panel1.Controls.Add(this.label2);
-            this.panel1.Controls.Add(this.pictureBox2);
+            this.panel1.Controls.Add(this.pcBoxPlaylist);
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.pcBoxSongs);
             this.panel1.Controls.Add(this.label1);
@@ -101,6 +101,18 @@
             this.label5.TabIndex = 13;
             this.label5.Text = "Download";
             // 
+            // pcBoxDownload
+            // 
+            this.pcBoxDownload.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pcBoxDownload.Image = global::MobileMusicApp.Properties.Resources._2849815_download_multimedia_file_document_icon;
+            this.pcBoxDownload.Location = new System.Drawing.Point(407, 22);
+            this.pcBoxDownload.Name = "pcBoxDownload";
+            this.pcBoxDownload.Size = new System.Drawing.Size(48, 48);
+            this.pcBoxDownload.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pcBoxDownload.TabIndex = 12;
+            this.pcBoxDownload.TabStop = false;
+            this.pcBoxDownload.Click += new System.EventHandler(this.pcBoxDownload_Click);
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -110,6 +122,18 @@
             this.label3.Size = new System.Drawing.Size(37, 16);
             this.label3.TabIndex = 11;
             this.label3.Text = "Love";
+            // 
+            // pcBoxLove
+            // 
+            this.pcBoxLove.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pcBoxLove.Image = global::MobileMusicApp.Properties.Resources._2205225_favorite_like_love_popular_icon;
+            this.pcBoxLove.Location = new System.Drawing.Point(304, 22);
+            this.pcBoxLove.Name = "pcBoxLove";
+            this.pcBoxLove.Size = new System.Drawing.Size(48, 48);
+            this.pcBoxLove.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pcBoxLove.TabIndex = 10;
+            this.pcBoxLove.TabStop = false;
+            this.pcBoxLove.Click += new System.EventHandler(this.pcBoxLove_Click);
             // 
             // label2
             // 
@@ -121,6 +145,18 @@
             this.label2.TabIndex = 9;
             this.label2.Text = "Playlist";
             // 
+            // pcBoxPlaylist
+            // 
+            this.pcBoxPlaylist.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pcBoxPlaylist.Image = global::MobileMusicApp.Properties.Resources._8893860_music_folder_directory_songs_media_icon;
+            this.pcBoxPlaylist.Location = new System.Drawing.Point(207, 22);
+            this.pcBoxPlaylist.Name = "pcBoxPlaylist";
+            this.pcBoxPlaylist.Size = new System.Drawing.Size(48, 48);
+            this.pcBoxPlaylist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pcBoxPlaylist.TabIndex = 8;
+            this.pcBoxPlaylist.TabStop = false;
+            this.pcBoxPlaylist.Click += new System.EventHandler(this.pcBoxPlaylist_Click);
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -131,6 +167,18 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Songs";
             // 
+            // pcBoxSongs
+            // 
+            this.pcBoxSongs.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pcBoxSongs.Image = global::MobileMusicApp.Properties.Resources._4593186_list_music_player_playlist_video_icon;
+            this.pcBoxSongs.Location = new System.Drawing.Point(108, 22);
+            this.pcBoxSongs.Name = "pcBoxSongs";
+            this.pcBoxSongs.Size = new System.Drawing.Size(48, 48);
+            this.pcBoxSongs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pcBoxSongs.TabIndex = 6;
+            this.pcBoxSongs.TabStop = false;
+            this.pcBoxSongs.Click += new System.EventHandler(this.pcBoxSongs_Click);
+            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -140,6 +188,18 @@
             this.label1.Size = new System.Drawing.Size(57, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Recents";
+            // 
+            // pcBoxHome
+            // 
+            this.pcBoxHome.BackColor = System.Drawing.Color.LightSeaGreen;
+            this.pcBoxHome.Image = global::MobileMusicApp.Properties.Resources._4737441_building_estate_home_house_property_icon;
+            this.pcBoxHome.Location = new System.Drawing.Point(13, 22);
+            this.pcBoxHome.Name = "pcBoxHome";
+            this.pcBoxHome.Size = new System.Drawing.Size(48, 48);
+            this.pcBoxHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pcBoxHome.TabIndex = 0;
+            this.pcBoxHome.TabStop = false;
+            this.pcBoxHome.Click += new System.EventHandler(this.pcBoxHome_Click);
             // 
             // panelSongs
             // 
@@ -174,6 +234,18 @@
             this.lblTitle.Size = new System.Drawing.Size(46, 25);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "title";
+            // 
+            // btnFindSong
+            // 
+            this.btnFindSong.BackColor = System.Drawing.SystemColors.Control;
+            this.btnFindSong.Image = ((System.Drawing.Image)(resources.GetObject("btnFindSong.Image")));
+            this.btnFindSong.Location = new System.Drawing.Point(443, 45);
+            this.btnFindSong.Name = "btnFindSong";
+            this.btnFindSong.Size = new System.Drawing.Size(33, 30);
+            this.btnFindSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.btnFindSong.TabIndex = 28;
+            this.btnFindSong.TabStop = false;
+            this.btnFindSong.Click += new System.EventHandler(this.btnFindSong_Click);
             // 
             // btnVN
             // 
@@ -242,77 +314,6 @@
             this.btnExit.TabStop = false;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click);
             // 
-            // btnFindSong
-            // 
-            this.btnFindSong.BackColor = System.Drawing.SystemColors.Control;
-            this.btnFindSong.Image = ((System.Drawing.Image)(resources.GetObject("btnFindSong.Image")));
-            this.btnFindSong.Location = new System.Drawing.Point(443, 45);
-            this.btnFindSong.Name = "btnFindSong";
-            this.btnFindSong.Size = new System.Drawing.Size(33, 30);
-            this.btnFindSong.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.btnFindSong.TabIndex = 28;
-            this.btnFindSong.TabStop = false;
-            this.btnFindSong.Click += new System.EventHandler(this.btnFindSong_Click);
-            // 
-            // pcBoxDownload
-            // 
-            this.pcBoxDownload.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pcBoxDownload.Image = global::MobileMusicApp.Properties.Resources._2849815_download_multimedia_file_document_icon;
-            this.pcBoxDownload.Location = new System.Drawing.Point(407, 22);
-            this.pcBoxDownload.Name = "pcBoxDownload";
-            this.pcBoxDownload.Size = new System.Drawing.Size(48, 48);
-            this.pcBoxDownload.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pcBoxDownload.TabIndex = 12;
-            this.pcBoxDownload.TabStop = false;
-            this.pcBoxDownload.Click += new System.EventHandler(this.pcBoxDownload_Click);
-            // 
-            // pcBoxLove
-            // 
-            this.pcBoxLove.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pcBoxLove.Image = global::MobileMusicApp.Properties.Resources._2205225_favorite_like_love_popular_icon;
-            this.pcBoxLove.Location = new System.Drawing.Point(304, 22);
-            this.pcBoxLove.Name = "pcBoxLove";
-            this.pcBoxLove.Size = new System.Drawing.Size(48, 48);
-            this.pcBoxLove.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pcBoxLove.TabIndex = 10;
-            this.pcBoxLove.TabStop = false;
-            this.pcBoxLove.Click += new System.EventHandler(this.pcBoxLove_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pictureBox2.Image = global::MobileMusicApp.Properties.Resources._8893860_music_folder_directory_songs_media_icon;
-            this.pictureBox2.Location = new System.Drawing.Point(207, 22);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(48, 48);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox2.TabIndex = 8;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pcBoxSongs
-            // 
-            this.pcBoxSongs.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pcBoxSongs.Image = global::MobileMusicApp.Properties.Resources._4593186_list_music_player_playlist_video_icon;
-            this.pcBoxSongs.Location = new System.Drawing.Point(108, 22);
-            this.pcBoxSongs.Name = "pcBoxSongs";
-            this.pcBoxSongs.Size = new System.Drawing.Size(48, 48);
-            this.pcBoxSongs.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pcBoxSongs.TabIndex = 6;
-            this.pcBoxSongs.TabStop = false;
-            this.pcBoxSongs.Click += new System.EventHandler(this.pcBoxSongs_Click);
-            // 
-            // pcBoxHome
-            // 
-            this.pcBoxHome.BackColor = System.Drawing.Color.LightSeaGreen;
-            this.pcBoxHome.Image = global::MobileMusicApp.Properties.Resources._4737441_building_estate_home_house_property_icon;
-            this.pcBoxHome.Location = new System.Drawing.Point(13, 22);
-            this.pcBoxHome.Name = "pcBoxHome";
-            this.pcBoxHome.Size = new System.Drawing.Size(48, 48);
-            this.pcBoxHome.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pcBoxHome.TabIndex = 0;
-            this.pcBoxHome.TabStop = false;
-            this.pcBoxHome.Click += new System.EventHandler(this.pcBoxHome_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -330,17 +331,17 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxDownload)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxLove)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxPlaylist)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxSongs)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxHome)).EndInit();
             this.panelSongs.ResumeLayout(false);
             this.panelSongs.PerformLayout();
             this.panelTitle.ResumeLayout(false);
             this.panelTitle.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnFindSong)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcBoxDownload)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcBoxLove)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcBoxSongs)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pcBoxHome)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.btnExit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -354,7 +355,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pcBoxLove;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pcBoxPlaylist;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pcBoxSongs;
         private System.Windows.Forms.Label label5;

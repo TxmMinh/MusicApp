@@ -133,11 +133,14 @@
   <data name="1860497_send_social media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\1860497_send_social media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3561840_emoji_emoticon_expression_annoyed_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3561840_emoji_emoticon_expression_annoyed_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="4115237_add_plus_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4115237_add_plus_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="4593186_list_music_player_playlist_video_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4593186_list_music_player_playlist_video_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8664938_trash_can_delete_remove_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8664938_trash_can_delete_remove_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2849815_download_multimedia_file_document_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2849815_download_multimedia_file_document_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -151,14 +154,20 @@
   <data name="9057190_more_o_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\9057190_more_o_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="619539_close_delete_dismiss_exit_cancel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\619539_close_delete_dismiss_exit_cancel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="3844432_magnifier_search_zoom_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\3844432_magnifier_search_zoom_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3561853_emoji_emoticon_happy_laugh_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3561853_emoji_emoticon_happy_laugh_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8673564_ic_fluent_note_add_filled_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8673564_ic_fluent_note_add_filled_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="8893860_music_folder_directory_songs_media_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\8893860_music_folder_directory_songs_media_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3561853_emoji_emoticon_happy_laugh_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561853_emoji_emoticon_happy_laugh_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="2674056_emotion_object_happy_web_essential_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\2674056_emotion_object_happy_web_essential_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,13 +181,22 @@
   <data name="4830812_crying_emoji_sad_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\4830812_crying_emoji_sad_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="619539_close_delete_dismiss_exit_cancel_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\619539_close_delete_dismiss_exit_cancel_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="9042847_playlist_play_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9042847_playlist_play_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="10132186_playlist_line_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10132186_playlist_line_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3561857_bedroom_emoji_emoticon_rest_sleep_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561857_bedroom_emoji_emoticon_rest_sleep_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3561840_emoji_emoticon_expression_annoyed_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3561840_emoji_emoticon_expression_annoyed_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="352074_circle_play_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\352074_circle_play_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="3561857_bedroom_emoji_emoticon_rest_sleep_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3561857_bedroom_emoji_emoticon_rest_sleep_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8664938_trash_can_delete_remove_icon1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8664938_trash_can_delete_remove_icon1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

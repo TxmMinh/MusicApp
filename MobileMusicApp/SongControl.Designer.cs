@@ -32,12 +32,14 @@
             this.lblSongName = new System.Windows.Forms.Label();
             this.lblSinger = new System.Windows.Forms.Label();
             this.axWindowsMediaPlayer1 = new AxWMPLib.AxWindowsMediaPlayer();
+            this.pcBoxDelete = new System.Windows.Forms.PictureBox();
             this.btnMoreInfo = new System.Windows.Forms.PictureBox();
             this.btnDownLoad = new System.Windows.Forms.PictureBox();
             this.btnPlaylist = new System.Windows.Forms.PictureBox();
             this.btnLove = new System.Windows.Forms.PictureBox();
             this.btnPlay = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxDelete)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMoreInfo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDownLoad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlaylist)).BeginInit();
@@ -75,6 +77,18 @@
             this.axWindowsMediaPlayer1.TabIndex = 4;
             this.axWindowsMediaPlayer1.Visible = false;
             // 
+            // pcBoxDelete
+            // 
+            this.pcBoxDelete.Image = global::MobileMusicApp.Properties.Resources._8664938_trash_can_delete_remove_icon1;
+            this.pcBoxDelete.Location = new System.Drawing.Point(472, 44);
+            this.pcBoxDelete.Name = "pcBoxDelete";
+            this.pcBoxDelete.Size = new System.Drawing.Size(35, 37);
+            this.pcBoxDelete.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcBoxDelete.TabIndex = 9;
+            this.pcBoxDelete.TabStop = false;
+            this.pcBoxDelete.Visible = false;
+            this.pcBoxDelete.Click += new System.EventHandler(this.pcBoxDelete_Click);
+            // 
             // btnMoreInfo
             // 
             this.btnMoreInfo.Image = global::MobileMusicApp.Properties.Resources._9057190_more_o_icon;
@@ -106,6 +120,7 @@
             this.btnPlaylist.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.btnPlaylist.TabIndex = 6;
             this.btnPlaylist.TabStop = false;
+            this.btnPlaylist.Click += new System.EventHandler(this.btnPlaylist_Click);
             // 
             // btnLove
             // 
@@ -134,6 +149,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;
+            this.Controls.Add(this.pcBoxDelete);
             this.Controls.Add(this.btnMoreInfo);
             this.Controls.Add(this.btnDownLoad);
             this.Controls.Add(this.btnPlaylist);
@@ -144,7 +160,9 @@
             this.Controls.Add(this.lblSongName);
             this.Name = "SongControl";
             this.Size = new System.Drawing.Size(648, 103);
+            this.Load += new System.EventHandler(this.SongControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.axWindowsMediaPlayer1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcBoxDelete)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnMoreInfo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnDownLoad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btnPlaylist)).EndInit();
@@ -165,5 +183,6 @@
         private System.Windows.Forms.PictureBox btnPlaylist;
         private System.Windows.Forms.PictureBox btnDownLoad;
         private System.Windows.Forms.PictureBox btnMoreInfo;
+        private System.Windows.Forms.PictureBox pcBoxDelete;
     }
 }

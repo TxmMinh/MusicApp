@@ -58,12 +58,12 @@ namespace MobileMusicApp
         {
             if (string.IsNullOrEmpty(txtName.Text))
             {
-                MessageBox.Show("Vui lòng nhập Tên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter Name!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtName.Focus();
             }
             else if (string.IsNullOrEmpty(txtMessage.Text))
             {
-                MessageBox.Show("Vui lòng nhập message!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Please enter message!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtName.Focus();
             }
             else

@@ -23,6 +23,11 @@ namespace MobileMusicApp
         public string SongId { get; set; }
         public string SongPath { get; set; }
         public string ImagePath { get; set; }
+
+        public string Isplaylist { get; set; }
+
+        public string PlaylistId { get; set; }
+
         public string SongName
         {
             get { return lblSongName.Text; }
@@ -51,7 +56,16 @@ namespace MobileMusicApp
 
         public SongControl()
         {
+            InitializeComponent();
+            pcBoxDelete.Hide();
+            btnPlaylist.Show();
+        }
+
+        public SongControl(string isplaylist)
+        {
             InitializeComponent(); 
+            pcBoxDelete.Show();
+            btnPlaylist.Hide(); 
 
         }
 
@@ -254,5 +268,33 @@ namespace MobileMusicApp
             detailSong.ShowDialog();
         }
 
+        private void btnPlaylist_Click(object sender, EventArgs e)
+        {
+            Form3 form3 = new Form3();
+            form3.SongId = SongId;
+            form3.ShowDialog();
+        }
+
+        private void SongControl_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pcBoxDelete_Click(object sender, EventArgs e)
+        {
+            string query_delete = "DELETE FROM playlist_song WHERE song_id = @songId and playlist_id = @playlist_id";
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                connection.Open();
+                using (SqlCommand command = new SqlCommand(query_delete, connection))
+                {
+                    command.Parameters.AddWithValue("@playlist_id", PlaylistId);
+                    command.Parameters.AddWithValue("@songId", SongId);
+                    command.ExecuteNonQuery();
+                }
+                connection.Close();
+            }
+            MessageBox.Show("Delete Playlist succesfully. Please returns to the main screen to load!", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }

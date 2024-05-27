@@ -17,3 +17,8 @@ E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\Mobil
 E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.DownloadControl.resources
 E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Form2.resources
 E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.ChatControl.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Form3.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.PlaylistControl.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Form4.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.PlaylistControl2.resources
+E:\#UIT\32. Ngôn ngữ lập trình C#\Project\MobileMusic\MobileMusicApp\MobileMusicApp\obj\Debug\MobileMusicApp.Form5.resources
